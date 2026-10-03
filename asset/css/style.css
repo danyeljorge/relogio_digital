@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Orbitron';
 }
 
 body {
 
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     height: auto;
@@ -43,7 +45,7 @@ nav img {
     
 }
 main {
-    height: 100vh;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,9 +55,29 @@ main {
 main p {
     font-size: 6em;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Orbitron';
     font-weight: 600;
 }
+
+.tituloHora  {
+    font-size: 2em;
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+.tituloData {
+    font-size: 1em;
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+#data {
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+
 
     footer {
         background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
@@ -64,10 +86,12 @@ main p {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: absolute;
+        bottom: 0;
     }
 
     footer p {
-        font-family: verdana, sans-serif;
+        font-family: 'Orbitron';
         color: white;
         font-weight: 500;
         font-size: large;
